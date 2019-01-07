@@ -5,7 +5,8 @@
 ## 1.LanguagePacks （语言包项目，包含json格式的语言文件。)：
 json文件属性设置：生成操作修改为“嵌入的资源”。
 注意，语言包项目不被其他项目引用。
-json结构
+
+json结构：
 ```json
 {
 "bindingName": "GLOBAL",
@@ -34,6 +35,7 @@ public static string GetLocale(this Controller controller, string target){
 ...
 }
 ```
+
 ```csharp 
 public static MvcHtmlString Locale(this HtmlHelper helper, string target){
 ...
@@ -46,6 +48,7 @@ public static MvcHtmlString Locale(this HtmlHelper helper, string target){
 ViewBag.Search =Locale("搜索");
 ViewBag.Choose = Locale("请选择");
 ```
+
 Razor页面：
 ```csharp 
 <h1>@Html.Locale("你好")</h1>
@@ -53,4 +56,12 @@ ViewBag.Choose = Locale("请选择");
 
 <label>target设置为元素id</label>
 <input  id="divMessage" value="@Html.Locale("divMessage")" />
+```
+
+```js
+<!--脚本中使用-->
+<script>
+    var jsLanguages = { "title": "@Html.Locale("你好")" };
+    alert(jsLanguages.title);
+</script>
 ```
