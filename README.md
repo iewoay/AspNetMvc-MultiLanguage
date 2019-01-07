@@ -35,7 +35,6 @@ public static string GetLocale(this Controller controller, string target){
 ...
 }
 ```
-
 ```csharp 
 public static MvcHtmlString Locale(this HtmlHelper helper, string target){
 ...
@@ -48,16 +47,16 @@ public static MvcHtmlString Locale(this HtmlHelper helper, string target){
 ViewBag.Search =Locale("搜索");
 ViewBag.Choose = Locale("请选择");
 ```
-
 Razor页面：
 ```csharp 
 <h1>@Html.Locale("你好")</h1>
-ViewBag.Choose = Locale("请选择");
+<h1>@Html.Locale("新增")</h1>
+<h1>@Html.Locale("修改")</h1>
+<h1>@Html.Locale("删除")</h1>
 
 <label>target设置为元素id</label>
 <input  id="divMessage" value="@Html.Locale("divMessage")" />
 ```
-
 ```js
 <!--脚本中使用-->
 <script>
