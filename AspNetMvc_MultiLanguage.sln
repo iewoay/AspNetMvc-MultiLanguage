@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDemo", "WebAppDemo\WebAppDemo.csproj", "{4EE90B04-C515-480F-8F17-57B6596C9E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLanguage", "MultiLanguage\MultiLanguage.csproj", "{AC4F599D-0F24-4926-A950-077C398C3AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguagePacks", "LanguagePacks\LanguagePacks.csproj", "{ACEDD393-4668-4E72-B6DE-1C4270BF8F77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EE90B04-C515-480F-8F17-57B6596C9E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE90B04-C515-480F-8F17-57B6596C9E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE90B04-C515-480F-8F17-57B6596C9E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE90B04-C515-480F-8F17-57B6596C9E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4F599D-0F24-4926-A950-077C398C3AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4F599D-0F24-4926-A950-077C398C3AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4F599D-0F24-4926-A950-077C398C3AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4F599D-0F24-4926-A950-077C398C3AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEDD393-4668-4E72-B6DE-1C4270BF8F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEDD393-4668-4E72-B6DE-1C4270BF8F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEDD393-4668-4E72-B6DE-1C4270BF8F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEDD393-4668-4E72-B6DE-1C4270BF8F77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

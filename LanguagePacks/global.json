@@ -1,0 +1,85 @@
+{
+	"bindingName": "GLOBAL",
+	"mappers": [
+    {
+      "target": "你好",
+      "languages": {
+        "zh_cn": "你好",
+        "en": "Hello",
+        "jp": "こんにちは"
+      }
+    },
+    {
+      "target": "搜索",
+      "languages": {
+        "zh_cn": "搜索",
+        "en": "Search",
+        "jp": "検索の条件"
+      }
+    },
+    {
+      "target": "新增",
+      "languages": {
+        "zh_cn": "新增",
+        "en": "New",
+        "jp": "追加"
+      }
+    },
+    {
+      "target": "修改",
+      "languages": {
+        "zh_cn": "修改",
+        "en": "Edit",
+        "jp": "変更"
+      }
+    },
+    {
+      "target": "删除",
+      "languages": {
+        "zh_cn": "删除",
+        "en": "Delete",
+        "jp": "削除"
+      }
+    },
+    {
+      "target": "请选择",
+      "languages": {
+        "zh_cn": "请选择",
+        "en": "Select an item",
+        "jp": "アイテムを選択"
+      }
+    },
+    {
+      "target": "选择语言",
+      "languages": {
+        "zh_cn": "选择语言",
+        "en": "Change language",
+        "jp": "言語を選ぶ"
+      }
+    },
+    {
+      "target": "系统出错",
+      "languages": {
+        "zh_cn": "系统出错",
+        "en": "Error",
+        "jp": "システムエラー"
+      }
+    },
+    {
+      "target": "请登录",
+      "languages": {
+        "zh_cn": "请登录",
+        "en": "Please Sign In",
+        "jp": "ログインしてください"
+      }
+    },
+    {
+      "target": "divMessage",
+      "languages": {
+        "zh_cn": "新消息",
+        "en": "New message",
+        "jp": "新しい情報"
+      }
+    }
+  ]
+}
